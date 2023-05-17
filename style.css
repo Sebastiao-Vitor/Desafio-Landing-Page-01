@@ -110,7 +110,7 @@ img {
 .main {
   background: var(--bc-white);
   display: flex;
-  padding: 5rem;
+  padding: 6rem;
   flex-direction: column;
 }
 
@@ -145,18 +145,18 @@ img {
 
 .main .main-img {
   display: flex;
-  margin-top: 1rem;
+  margin-top: 3rem;
   justify-content: center;
   border-radius: 3rem;
-  filter: drop-shadow(3rem 4rem 2.5rem black);
+  filter: drop-shadow(3rem 4rem 2rem black);
   transition: 0.7s cubic-bezier(0.68, -0.55, 0.27, 1.55);
   object-fit: cover;
 }
 
 .main .main-img:hover {
-  scale: 1.01;
-  border: var(--bc-whiteDark) 0.4rem solid;
-  border-radius: 2rem;
+  scale: 1.04;
+  border: 0.5rem solid var(--bc-whiteDark);
+  border-radius: 5rem;
   filter: drop-shadow(2rem 4rem 1rem black);
 } 
 
@@ -255,7 +255,7 @@ form button a {
   font-style: none;
 }
 
-@media (min-width: 915px) {
+@media (min-width: 950px) {
   .header .header-primary {
     height: 47.5rem;
   }
@@ -268,7 +268,6 @@ form button a {
 
   .main {
     gap: 6rem;
-    padding: 0rem 3rem 0rem 5rem;
     margin-bottom: 5rem;
   }
 
@@ -289,9 +288,8 @@ form button a {
   }
 
   .main .main-img:hover {
-    scale: 1.15;
-    border-radius: 3.3rem;
-    transform: translate(-2.6rem, 0);
+    scale: 1.08;
+    border-radius: 6rem;
   }
 
   .footer {
@@ -325,4 +323,23 @@ form button a {
     font-size: 3rem;
     line-height: 3rem;
   }  
+}
+
+@media (min-width: 1000px) {
+  .main {
+    gap: 6rem;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 5rem;
+  }
+
+  .main .main-img img {
+    width: 51rem;
+    height: 60.5rem;
+  }
+
+  .main .main-img:hover {
+    transform: translate(-2.6rem, 0);
+    border-radius: 4rem;
+  }
 }
