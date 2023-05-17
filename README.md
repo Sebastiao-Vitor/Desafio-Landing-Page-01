@@ -9,9 +9,12 @@
 
 Projeto construido atraves do primeiro desafio do ciclo base.
 
- [🔗 Clique aqui para acessar]()
+> [🔗 Clique aqui para acessar]()
 
-## 🧰🛠️ Tecnologias
+
+> [🔗 Clique aqui para acessar a Planilha  do Sheet Monkey 🐒](https://docs.google.com/spreadsheets/d/1rDhTuJtyDEnVnAE0c6gX3m-SrFCtKZVngprJze3hcEA/edit#gid=0)
+
+# 🧰🛠️ Tecnologias
 
 - HTML
 - CSS
@@ -33,7 +36,8 @@ Projeto construido atraves do primeiro desafio do ciclo base.
 - Function
 - JavaScript
 
-## 💛 Contato
+
+# 💛 Contato
 
 sebastiaovitor18@gmail.com
 
