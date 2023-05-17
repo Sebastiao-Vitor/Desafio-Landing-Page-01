@@ -9,7 +9,7 @@
 
 Projeto construido atraves do primeiro desafio do ciclo base.
 
-> [🔗 Clique aqui para acessar]()
+> [🔗 Clique aqui para acessar da Page](https://landing-page-desafio-01-dnc.netlify.app)
 
 
 > [🔗 Clique aqui para acessar a Planilha  do Sheet Monkey 🐒](https://docs.google.com/spreadsheets/d/1rDhTuJtyDEnVnAE0c6gX3m-SrFCtKZVngprJze3hcEA/edit#gid=0)
