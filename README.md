@@ -7,7 +7,7 @@
 
 > Formação em Tecnologia
 
-Projeto construido atraves do primeiro desafio do ciclo base.
+Projeto construído através do primeiro desafio do ciclo base.
 
 > [🔗 Clique aqui para acessar da Page](https://landing-page-desafio-01-dnc.netlify.app)
 
