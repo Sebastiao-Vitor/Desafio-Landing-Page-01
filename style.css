@@ -97,7 +97,6 @@ img {
 
 .header-secondary h2:hover {
   scale: 1.02;
-  filter: drop-shadow(0.6rem 0.8rem 0.6rem black);
 }
 
 .header-secondary h2 span {
