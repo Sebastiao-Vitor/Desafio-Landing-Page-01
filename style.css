@@ -108,17 +108,17 @@ img {
 /* Section Main */
 
 .main {
-  height: 85rem;
   background: var(--bc-white);
-  display: grid;
-  padding: 2rem;
+  display: flex;
+  padding: 5rem;
+  flex-direction: column;
 }
 
 .main .main-text {
   display: flex;
   height: 30rem;
   text-align: start;
-  padding: 2rem;
+  padding-bottom: 4rem;
   flex-direction: column;
   justify-content: center;
   transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -150,12 +150,12 @@ img {
   border-radius: 3rem;
   filter: drop-shadow(3rem 4rem 2.5rem black);
   transition: 0.7s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  object-fit: cover;
 }
 
 .main .main-img:hover {
-  scale: 1.19;
-  transform: translate(-22px, 0px);
-  border: var(--bc-whiteDark) 0.5rem solid;
+  scale: 1.01;
+  border: var(--bc-whiteDark) 0.4rem solid;
   border-radius: 2rem;
   filter: drop-shadow(2rem 4rem 1rem black);
 } 
@@ -251,6 +251,10 @@ form button:hover {
   filter: drop-shadow(0.8rem 1rem 0.2rem black);
 }
 
+form button a {
+  font-style: none;
+}
+
 @media (min-width: 915px) {
   .header .header-primary {
     height: 47.5rem;
@@ -263,10 +267,9 @@ form button:hover {
   }
 
   .main {
-    grid-auto-flow: column;
-    align-items: center;
     gap: 6rem;
     padding: 0rem 3rem 0rem 5rem;
+    margin-bottom: 5rem;
   }
 
   .main .main-img,
